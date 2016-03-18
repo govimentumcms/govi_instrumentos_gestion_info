@@ -15,12 +15,10 @@ function govi_instrumentos_gestion_info_content_menu_links_defaults() {
     'menu_name' => 'menu-menu-instrumentos-gestion',
     'link_path' => 'transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes',
     'router_path' => 'transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes',
-    'link_title' => 'Informe de PQRs denuncias y solicitudes',
+    'link_title' => 'Informe de PQRS y denuncias',
     'options' => array(
       'cami' => array(
-        'pages' => 'transparencia/instrumentos-gestion-informacion-publica
-transparencia/instrumentos-gestion-informacion-publica/*
-transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes
+        'pages' => 'transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes
 transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes/*',
       ),
       'attributes' => array(),
@@ -50,8 +48,6 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
       'cami' => array(
         'pages' => 'transparencia/instrumentos-gestion-informacion-publica/gestion-documental
 transparencia/instrumentos-gestion-informacion-publica/gestion-documental/*
-transparencia/instrumentos-gestion-informacion-publica/*
-transparencia/instrumentos-gestion-informacion-publica
 transparencia/instrumentos-gestion-informacion-publica/gestión-documental/*
 transparencia/instrumentos-gestion-informacion-publica/gestión-documental',
       ),
@@ -107,7 +103,7 @@ transparencia/instrumentos-gestion-informacion-publica/gestión-documental',
   // Translatables
   // Included for use with string extractors like potx.
   t('Gestión documental');
-  t('Informe de PQRs denuncias y solicitudes');
+  t('Informe de PQRS y denuncias');
   t('Relacionados con la información');
 
 

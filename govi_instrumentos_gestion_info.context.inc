@@ -29,6 +29,7 @@ function govi_instrumentos_gestion_info_context_default_contexts() {
       'values' => array(
         'transparencia/instrumentos-gestion-informacion-publica/' => 'transparencia/instrumentos-gestion-informacion-publica/',
         'transparencia/instrumentos-gestion-informacion-publica/*' => 'transparencia/instrumentos-gestion-informacion-publica/*',
+        'transparencia/instrumentos-gestion-informacion-publica' => 'transparencia/instrumentos-gestion-informacion-publica',
       ),
     ),
     'taxonomy_term' => array(

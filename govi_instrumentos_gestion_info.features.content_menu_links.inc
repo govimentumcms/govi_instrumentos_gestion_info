@@ -19,7 +19,9 @@ function govi_instrumentos_gestion_info_content_menu_links_defaults() {
     'options' => array(
       'cami' => array(
         'pages' => 'transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes
-transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes/*',
+transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes/*
+transparencia/instrumentos-gestion-informacion-publica/informe-peticiones-quejas-reclamos-denuncias-y-solicitudes-acceso-información/*
+transparencia/instrumentos-gestion-informacion-publica/informe-peticiones-quejas-reclamos-denuncias-y-solicitudes-acceso-información',
       ),
       'attributes' => array(),
       'item_attributes' => array(
@@ -77,11 +79,9 @@ transparencia/instrumentos-gestion-informacion-publica/gestión-documental',
     'options' => array(
       'cami' => array(
         'pages' => 'transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion
-/transparencia/instrumentos-gestion-informacion-publica/
-/transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion/*
-/transparencia/instrumentos-gestion-informacion-publica/*
-/transparencia/instrumentos-gestion-informacion-publica/relacionados-información
-/transparencia/instrumentos-gestion-informacion-publica/relacionados-información/*',
+transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion/*
+transparencia/instrumentos-gestion-informacion-publica/relacionados-información
+transparencia/instrumentos-gestion-informacion-publica/relacionados-información/*',
       ),
       'attributes' => array(),
       'item_attributes' => array(

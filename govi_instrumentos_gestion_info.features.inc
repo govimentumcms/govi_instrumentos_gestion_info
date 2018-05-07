@@ -32,9 +32,9 @@ function govi_instrumentos_gestion_info_views_api($module = NULL, $api = NULL) {
 function govi_instrumentos_gestion_info_node_info() {
   $items = array(
     'instrumentos_gestion_informacion' => array(
-      'name' => t('Instrumentos de gestión de información pública'),
+      'name' => t('10. Instrumentos de gestión de información pública'),
       'base' => 'node_content',
-      'description' => t('Utilice este tipo de contenido para gestionar y clasificar los documentos relacionados con los Instrumentos de gestión de información pública de la entidad
+      'description' => t('Con este tipo de contenido puede gestionar Registro de activos de información, Índice de información clasificada y reservada, Esquema de publicación de información, Programa de gestión documental, Tablas de retención documental, Registro de publicaciones, Costos de reproducción e Informe de PQRS de la Entidad.
 '),
       'has_title' => '1',
       'title_label' => t('Title'),

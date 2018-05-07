@@ -15,7 +15,7 @@ function govi_instrumentos_gestion_info_views_default_views() {
   $view->description = '';
   $view->tag = 'default';
   $view->base_table = 'node';
-  $view->human_name = 'Instrumentos de gestión de información pública';
+  $view->human_name = '10. Instrumentos de gestión de información pública';
   $view->core = 7;
   $view->api_version = '3.0';
   $view->disabled = FALSE; /* Edit this to true to make a default view disabled initially */
@@ -153,9 +153,9 @@ function govi_instrumentos_gestion_info_views_default_views() {
   );
 
   /* Display: Instrumentos de gestión de información pública  */
-  $handler = $view->new_display('page', 'Instrumentos de gestión de información pública ', 'page_1');
+  $handler = $view->new_display('page', '10. Instrumentos de gestión de información pública ', 'page_1');
   $handler->display->display_options['defaults']['title'] = FALSE;
-  $handler->display->display_options['title'] = 'Instrumentos de gestión de información pública';
+  $handler->display->display_options['title'] = '10. Instrumentos de gestión de información pública';
   $handler->display->display_options['defaults']['pager'] = FALSE;
   $handler->display->display_options['pager']['type'] = 'some';
   $handler->display->display_options['pager']['options']['items_per_page'] = '1';
